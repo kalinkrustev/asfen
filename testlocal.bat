@@ -1,0 +1,1 @@
+pjsua_vc6d.exe --local-port=3000 --rtp-port=2000 --play-file=senorita.wav

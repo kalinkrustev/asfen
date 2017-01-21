@@ -1,0 +1,120 @@
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"> 
+<title>Естел - АСО | Оператор</title> 
+    <link rel="stylesheet" type="text/css" href="css/ext-all.css" /> 
+    <script type="text/javascript" src="js/ext-base.js"></script> 
+    <script type="text/javascript" src="js/ext-all-debug.js"></script> 
+    <script type="text/javascript" src="monitor.js"></script> 
+    <style type="text/css">
+       .resultsucceed{background-image:URL("succeed.png");background-position:center;background-repeat:no-repeat}
+       .resultsucceedhome{background-image:URL("succeedhome.png");background-position:center;background-repeat:no-repeat}
+       .resultsucceedwork{background-image:URL("succeedwork.png");background-position:center;background-repeat:no-repeat}
+       .resultsucceedmobile{background-image:URL("succeedmobile.png");background-position:center;background-repeat:no-repeat}
+       .resultfail{background-image:URL("fail.png");background-position:center;background-repeat:no-repeat}
+    </style>
+</head> 
+<body> 
+
+<div id="north"></div> 
+<div id="west"></div> 
+<div id="center"></div> 
+<div id="south"></div>
+<div id="modewindow"></div>
+<div id="eventwindow"></div>
+<div id="eventstopwindow"></div>
+
+<textarea id="detailstemplate" style="display:none">
+	<table border="0" cellspacing="0" style="width:100%">
+		<tr class="x-grid3-hd-row x-grid3-header">
+            <td class="x-grid3-hd x-grid3-cell x-grid3-hd-inner x-grid3-hd-2">име
+            <td class="x-grid3-hd x-grid3-cell x-grid3-hd-inner x-grid3-hd-2">служебен
+            <td class="x-grid3-hd x-grid3-cell x-grid3-hd-inner x-grid3-hd-2">домашен
+            <td class="x-grid3-hd x-grid3-cell x-grid3-hd-inner x-grid3-hd-2">gsm
+            <td class="x-grid3-hd x-grid3-cell x-grid3-hd-inner x-grid3-hd-2">mail
+            <td class="x-grid3-hd x-grid3-cell x-grid3-hd-inner x-grid3-hd-2">сл.адрес
+            <td class="x-grid3-hd x-grid3-cell x-grid3-hd-inner x-grid3-hd-2">дом.адрес
+        </tr>
+        <tr class="x-grid3-row-table x-grid3-row">        
+            <td class="x-grid3-col x-grid3-cell"><div style="padding:3 3 3 5">{personname}</div>
+            <td class="x-grid3-col x-grid3-cell"><div style="padding:3 3 3 5">{phone}</div>
+            <td class="x-grid3-col x-grid3-cell"><div style="padding:3 3 3 5">{homephone}</div>
+            <td class="x-grid3-col x-grid3-cell"><div style="padding:3 3 3 5">{mobilephone}</div>
+            <td class="x-grid3-col x-grid3-cell"><div style="padding:3 3 3 5">{email}</div>
+            <td class="x-grid3-col x-grid3-cell"><div style="padding:3 3 3 5">{address1}</div>
+            <td class="x-grid3-col x-grid3-cell"><div style="padding:3 3 3 5">{address2}</div>
+        </tr>
+    </table>    
+</textarea>
+
+<textarea id="reporttemplate" style="display:none">
+	<style type="text/css" media="print">
+	.printbutton {
+		visibility: hidden;
+		display: none;
+	}
+	</style>
+    <style type="text/css">
+    .resultsucceed {
+        color:green
+    }
+    .resultsucceedhome { 
+        color:green
+    }
+    .resultsucceedwork{
+        color:green
+    }
+    .resultsucceedmobile{
+        color:green
+    }
+    .resultfail{
+        color:red
+    }
+    </style>
+	<div class="printbutton" style="text-align:center">
+	    <br/>
+		<button onClick="window.print()" >Печат</button>
+		<br/>
+		<br/>
+	</div>	
+
+	<table border="1" cellspacing="0" style="border-collapse:collapse;border:1px solid black;font-family:verdana;font-size:10px">
+		<tr>
+			<th>резултат
+			<th>опит
+			<th>статус
+			<th>дата и час
+			<th>PRI
+			<th>SMS
+			<th>Mail
+			<th>телефони
+			<th>пункт
+			<th>организация, отдел, име, длъжност
+			<th>сл. адрес
+			<th>дом. адрес
+		</tr>	
+		<tpl for="status">
+		<tr>
+			<td>{state}
+            <td>{try}
+            <td>{status}
+            <td>{statustime}
+            <td class="result{resultsip}">{resultsipbg}
+            <td class="result{resultsms}">{resultsmsbg}
+            <td class="result{resultmail}">{resultmailbg}
+            <td>сл. {phone}, моб. {mobilephone}, дом. {homephone}
+            <td>{site}
+            <td>{organisationname},{divisionname},{personname},{positionname}
+            <td>{address1}
+            <td>{address2}
+		</tr>
+		</tpl>
+	</table>	
+<pre>
+{log}
+</pre>
+
+</textarea>
+
+</body> 
+</html> 

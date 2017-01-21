@@ -1,0 +1,2 @@
+Contents of this directory has been removed for pjsip distribution to
+reduce size. Original files are present in PJSIP svn version.

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{89679FA4-E89F-40F7-B580-04B624B68CEE}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="AlarmService.exe">AlarmService.bdsproj</Projects>
+      <Projects Name="AlarmGUI.exe">AlarmGUI.bdsproj</Projects>
+      <Projects Name="Targets">AlarmService.exe AlarmGUI.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

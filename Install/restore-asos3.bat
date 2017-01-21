@@ -1,0 +1,8 @@
+@echo off
+echo proceed with restore of c:\asos\asos3.bak (ctr+c to abort)?
+pause
+md data
+osql -U sa -b -n -d master -S (local) -Q "sp_addlogin 'Alarm', 'par4evi453'"
+osql -U sa -b -n -d master -S (local) -Q "RESTORE DATABASE [asos3] FROM  DISK = N'c:\asos\asos3.bak' WITH MOVE N'alarm_D' TO N'c:\asos\data\asos3.Mdf', MOVE N'alarm_L' TO N'c:\asos\data\asos3.LDF'"
+osql -U sa -b -n -d asos3  -S (local) -Q "exec sp_change_users_login 'Update_One', 'Alarm', 'Alarm'"
+pause

@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+      <Option Name="ProjectType">CppPackage</Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{F8DA4234-321F-44DC-AB0C-408D14CF88A2}</Option>
+    </Option>
+  </PersonalityInfo>
+  <CPlusPlusBuilder.Personality>
+    <BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="0"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="Debug_Build"/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
+        <property category="build.node" name="name" value="rtcSDK_C2006.bpl"/>
+        <property category="build.node" name="packages" value="rtl;vcl;vclx;designide"/>
+        <property category="build.node" name="sparelibs" value="rtl.lib"/>
+        <property category="build.node" name="use_packages" value="1"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.vi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$O.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="All Configurations"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.1" value="INSIDE_IDE"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="$(BDS)\lib\vcl100.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Od.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Ve.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vx.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.X.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.k.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.noregistervars.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="_RTLDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.3" value="USEPACKAGES"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.v.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.vi.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.y.enabled" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.1" value="_DEBUG"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.2" value="INSIDE_IDE"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.enabled" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.1" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.2" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.3" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.1" value="YD"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.2" value="W"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.LU.arg.1" value="DesignIde"/>
+          <property category="win32.*.win32b.dcc32" name="option.LU.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.LU.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value=".\"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.1" value="_DEBUG"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.2" value="INSIDE_IDE"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.2" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.boa.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.arg" value="cpp"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg" value="&quot;RealThinClient SDK&quot;"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpp.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.1" value="."/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.v.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="$(LIBRARIES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.3" value="cp32mti.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0pkg32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.3" value="Memmgr.Lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.4" value="sysinit.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.1" value="_DEBUG"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.2" value="INSIDE_IDE"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.1" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.2" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.3" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.w2.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="rtcSDK_C2006.res" CONTAINERID="ResTool" LOCALCOMMAND="" UNITNAME="rtcSDK_C2006.res" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcSDK_C2006.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rtcSDK_C2006" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="rtl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcUdpSrv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcUdpSrv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcUdpSrv.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcCliModule.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcCliModule" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcCliModule.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcConn.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcConn" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcConn.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcConnLimit.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcConnLimit" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcDataCli.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcDataCli" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcDataCli.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcDataSrv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcDataSrv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcDataSrv.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcFunction.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcFunction" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcFunction.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcFastStrings.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcFastStrings" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcScriptCompile.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcScriptCompile" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcScript.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcScript" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcScript.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcHttpCli.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcHttpSrv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcHttpSrv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcHttpSrv.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcInfo.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcInfo" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcISAPIApp.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcISAPIApp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcISAPISrv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcISAPISrv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcISAPISrv.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcLog.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcLog" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcParse.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcParse" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcSrvModule.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcSrvModule" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcSrvModule.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcTcpCli.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcTcpCli" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcTcpCli.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcTcpSrv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcTcpSrv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcTcpSrv.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcThrPool.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcThrPool" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcTimer.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcTimer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcUdpCli.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcUdpCli" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcUdpCli.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="vcl.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vcl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="vclx.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="vclx" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="designide.bpi" CONTAINERID="BPITool" LOCALCOMMAND="" UNITNAME="designide" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcRegister.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcRegister" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcHttpCli.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcHttpCli" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="bcb6Hack.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="bcb6Hack" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcService.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcService" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcZLib.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcZLib" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="WSocket_rtc.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="WSocket_rtc" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcISAPISrvProv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcISAPISrvProv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcTrashcan.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcTrashcan" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcWInetHttpCliProv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcWInetHttpCliProv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcWinHttpCliProv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcWinHttpCliProv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcWSockCliProv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcWSockCliProv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcWSockHttpCliProv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcWSockHttpCliProv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcWSockHttpSrvProv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcWSockHttpSrvProv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcWSockSrvProv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcWSockSrvProv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="memObjList.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="memObjList" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcSyncObjs.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcSyncObjs" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcCrypt.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcCrypt" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcConnProv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcConnProv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="memBinList.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="memBinList" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="memXList.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="memXList" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="memStrObjList.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="memStrObjList" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcPlugins.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcPlugins" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcPlugins.dcr" CONTAINERID="DcrTool" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcHWndPool.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcHWndPool" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcTransports.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcTransports" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcEditors.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcEditors" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcMsgSrvProv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcMsgSrvProv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcMsgCli.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcMsgCli" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcMsgCliProv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcMsgCliProv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcMsgSrv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcMsgSrv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="memPtrPool.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="memPtrPool" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcSocketPool.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcSocketPool" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rtcThrConnProv.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="rtcThrConnProv" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="memBinTree.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="memBinTree" FORMNAME="" DESIGNCLASS=""/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">1</VersionInfo>
+          <VersionInfo Name="MinorVer">0</VersionInfo>
+          <VersionInfo Name="Release">0</VersionInfo>
+          <VersionInfo Name="Build">0</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">1031</VersionInfo>
+          <VersionInfo Name="CodePage">1252</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+        </VersionInfoKeys>
+        <HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Count">1</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item0">$(BCB)\include;$(BCB)\include\vcl</HistoryLists_hlIncludePath>
+        </HistoryLists_hlIncludePath>
+        <HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Count">1</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item0">$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath>
+        </HistoryLists_hlLibraryPath>
+        <HistoryLists_hlDebugSourcePath>
+          <HistoryLists_hlDebugSourcePath Name="Count">1</HistoryLists_hlDebugSourcePath>
+          <HistoryLists_hlDebugSourcePath Name="Item0">$(BCB)\source\vcl</HistoryLists_hlDebugSourcePath>
+        </HistoryLists_hlDebugSourcePath>
+        <HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Count">2</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item0">_DEBUG;INSIDE_IDE</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item1">_DEBUG</HistoryLists_hlConditionals>
+        </HistoryLists_hlConditionals>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs">$(BCB)\source\vcl</Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams"></Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">False</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication"></Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+    <Source>
+      <Source Name="MainSource">rtcSDK_C2006.cpp</Source>
+    </Source>
+    <buildevents/>
+  </CPlusPlusBuilder.Personality>
+  <StarTeamAssociation></StarTeamAssociation>
+  <StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>

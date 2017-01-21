@@ -1,0 +1,139 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{ae2cbd0b-ee3e-4bad-96b6-a6d9dcd6924c}</ProjectGuid>
+    <MainSource>rtcSDK.dpk</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Define>DEBUG</DCC_Define>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>Package</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject xmlns=""> <Delphi.Personality>   <Parameters>
+      <Parameters Name="UseLauncher">False</Parameters>
+      <Parameters Name="LoadAllSymbols">True</Parameters>
+      <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+    </Parameters>
+    <Package_Options>
+      <Package_Options Name="PackageDescription">RealThinClient SDK 2</Package_Options>
+      <Package_Options Name="ImplicitBuild">False</Package_Options>
+      <Package_Options Name="DesigntimeOnly">True</Package_Options>
+      <Package_Options Name="RuntimeOnly">False</Package_Options>
+    </Package_Options>
+    <VersionInfo>
+      <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+      <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+      <VersionInfo Name="MajorVer">1</VersionInfo>
+      <VersionInfo Name="MinorVer">0</VersionInfo>
+      <VersionInfo Name="Release">0</VersionInfo>
+      <VersionInfo Name="Build">0</VersionInfo>
+      <VersionInfo Name="Debug">False</VersionInfo>
+      <VersionInfo Name="PreRelease">False</VersionInfo>
+      <VersionInfo Name="Special">False</VersionInfo>
+      <VersionInfo Name="Private">False</VersionInfo>
+      <VersionInfo Name="DLL">False</VersionInfo>
+      <VersionInfo Name="Locale">1031</VersionInfo>
+      <VersionInfo Name="CodePage">1252</VersionInfo>
+    </VersionInfo>
+    <VersionInfoKeys>
+      <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+    </VersionInfoKeys>
+    <Source>
+      <Source Name="MainSource">rtcSDK.dpk</Source>
+    </Source>
+  </Delphi.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <ItemGroup />
+  <ItemGroup>
+    <DelphiCompile Include="rtcSDK.dpk">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="designide.dcp" />
+    <DCCReference Include="memBinList.pas" />
+    <DCCReference Include="memBinTree.pas" />
+    <DCCReference Include="memObjList.pas" />
+    <DCCReference Include="memPtrPool.pas" />
+    <DCCReference Include="memStrIntList.pas" />
+    <DCCReference Include="memStrObjList.pas" />
+    <DCCReference Include="memXList.pas" />
+    <DCCReference Include="rtcCliModule.dcr" />
+    <DCCReference Include="rtcCliModule.pas" />
+    <DCCReference Include="rtcConn.dcr" />
+    <DCCReference Include="rtcConn.pas" />
+    <DCCReference Include="rtcConnLimit.pas" />
+    <DCCReference Include="rtcConnProv.pas" />
+    <DCCReference Include="rtcCrypt.pas" />
+    <DCCReference Include="rtcDataCli.dcr" />
+    <DCCReference Include="rtcDataCli.pas" />
+    <DCCReference Include="rtcDataSrv.dcr" />
+    <DCCReference Include="rtcDataSrv.pas" />
+    <DCCReference Include="rtcEditors.pas" />
+    <DCCReference Include="rtcFastStrings.pas" />
+    <DCCReference Include="rtcFunction.dcr" />
+    <DCCReference Include="rtcFunction.pas" />
+    <DCCReference Include="rtcHttpCli.dcr" />
+    <DCCReference Include="rtcHttpCli.pas" />
+    <DCCReference Include="rtcHttpSrv.dcr" />
+    <DCCReference Include="rtcHttpSrv.pas" />
+    <DCCReference Include="rtcHWndPool.pas" />
+    <DCCReference Include="rtcInfo.pas" />
+    <DCCReference Include="rtcISAPIApp.pas" />
+    <DCCReference Include="rtcISAPISrv.dcr" />
+    <DCCReference Include="rtcISAPISrv.pas" />
+    <DCCReference Include="rtcISAPISrvProv.pas" />
+    <DCCReference Include="rtcLog.pas" />
+    <DCCReference Include="rtcMsgCli.pas" />
+    <DCCReference Include="rtcMsgCliProv.pas" />
+    <DCCReference Include="rtcMsgSrv.pas" />
+    <DCCReference Include="rtcMsgSrvProv.pas" />
+    <DCCReference Include="rtcParse.pas" />
+    <DCCReference Include="rtcPlugins.dcr" />
+    <DCCReference Include="rtcPlugins.pas" />
+    <DCCReference Include="rtcRegister.pas" />
+    <DCCReference Include="rtcScript.dcr" />
+    <DCCReference Include="rtcScript.pas" />
+    <DCCReference Include="rtcScriptCompile.pas" />
+    <DCCReference Include="rtcSocketPool.pas" />
+    <DCCReference Include="rtcSrvModule.dcr" />
+    <DCCReference Include="rtcSrvModule.pas" />
+    <DCCReference Include="rtcSyncObjs.pas" />
+    <DCCReference Include="rtcTcpCli.dcr" />
+    <DCCReference Include="rtcTcpCli.pas" />
+    <DCCReference Include="rtcTcpSrv.dcr" />
+    <DCCReference Include="rtcTcpSrv.pas" />
+    <DCCReference Include="rtcThrConnProv.pas" />
+    <DCCReference Include="rtcThrPool.pas" />
+    <DCCReference Include="rtcTimer.pas" />
+    <DCCReference Include="rtcTransports.pas" />
+    <DCCReference Include="rtcTrashcan.pas" />
+    <DCCReference Include="rtcUdpCli.dcr" />
+    <DCCReference Include="rtcUdpCli.pas" />
+    <DCCReference Include="rtcUdpSrv.dcr" />
+    <DCCReference Include="rtcUdpSrv.pas" />
+    <DCCReference Include="rtcWInetHttpCliProv.pas" />
+    <DCCReference Include="rtcWSockCliProv.pas" />
+    <DCCReference Include="rtcWSockHttpCliProv.pas" />
+    <DCCReference Include="rtcWSockHttpSrvProv.pas" />
+    <DCCReference Include="rtcWSockSrvProv.pas" />
+    <DCCReference Include="rtcZLib.pas" />
+    <DCCReference Include="rtl.dcp" />
+    <DCCReference Include="vcl.dcp" />
+    <DCCReference Include="vclx.dcp" />
+    <DCCReference Include="WSockBuf_rtc.pas" />
+    <DCCReference Include="WSocket_rtc.pas" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+</Project>

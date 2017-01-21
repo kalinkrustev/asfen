@@ -1,0 +1,2 @@
+{.$DEFINE RtcDeploy}
+{.$DEFINE RtcTest}
