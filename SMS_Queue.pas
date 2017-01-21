@@ -79,7 +79,7 @@ var
   L:TList;
 begin
   if FPort<=0 then Exit;
-  
+
   ComPort:=TApdComPort.Create(nil);
   ComPort.ComNumber:=FPort;
   ComPort.DataBits:=FBits;
@@ -114,7 +114,6 @@ begin
   GSM.Connect;
   while not Terminated do
   begin
-    L:=SMSList.LockList;
     S:=nil;
     try
       GSM.Diagnose;
@@ -123,8 +122,10 @@ begin
     except
       SIPMonitor.GSM_Registration:='';
     end;
-    
+
     if SIPMonitor.GSM_Registration<>'' then
+    begin
+      L:=SMSList.LockList;
       try
         SIPMonitor.Count_GSM:=L.Count;
         if L.Count>0 then
@@ -136,6 +137,7 @@ begin
       finally
         SMSList.UnlockList;
       end;
+    end;
 
     if S<>nil then
     begin
